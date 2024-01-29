@@ -130,3 +130,7 @@ export class Service
   }
   //https://appwrite.io/docs/references/cloud/client-web/storage
 }
+
+const appwriteService = new Service();
+
+export default appwriteService;
